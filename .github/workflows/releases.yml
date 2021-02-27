@@ -1,7 +1,5 @@
 name: Upload prebuild binaries
-on:
-  release:
-    types: [published]
+on: [push]
 
 jobs:
   nightly:
